@@ -22,7 +22,7 @@ void loop()
   Serial.println(sensorValue);
   if (sensorValue > 800)
   {
-    digitalWrite(RED_LED, LED_ON); // Turn the LED on
+    digitalWrite(RED_LED, LED_ON);
     digitalWrite(GREEN_LED, LED_OFF);
   }
   else
